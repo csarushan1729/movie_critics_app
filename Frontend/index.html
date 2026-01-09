@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Reviews</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Movie Reviews</h1>
+  </header>
+
+  <div id="form">
+    <input type="text" id="query" placeholder="Search Movies...">
+    <button onclick="searchMovies()">Search</button>
+  </div>
+
+  <div id="section"></div>
+
+  <div id="movieDetails">
+    <button onclick="goBackToMovies()">Back</button>
+    <h2 id="movieTitle"></h2>
+    <img id="moviePoster" alt="Poster" style="width:300px; height:450px; object-fit:cover;">
+    <div id="reviewsSection"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
